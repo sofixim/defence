@@ -1,0 +1,1572 @@
+---
+title: "Cross-domain and cross-sensory effects of rhythm on language development"
+subtitle: "PhD Thesis Defence, BMCS - XXXV cycle"
+date: today
+abstract-title: "Abstract"
+abstract: "Rhythmic abilities are deeply rooted in the human brain. They originated from our need for social interaction and bonding and have evolved hand-to-hand with communication and linguistic abilities across ages. In the ontogenetic evolution, first experiences with rhythm occur already in the womb, with different rhythmic sources being available to the human fetus. Among sensory modalities, vestibular, tactile, and somatosensory perception (Provasi et al., 2014, VTS) seems to play a crucial role in early rhythm processing, with neural coupling dynamics allowing for VTS and sensorimotor influences on auditory encoding (Trainor et al., 2009; Phillips-Silver and Trainor, 2005; Tichko et al., 2021). However, a restricted corpus of studies specifically focused on VTS and sensorimotor abilities in rhythm and language development. Therefore, the present work aimed at investigating the role of the body through VTS and sensorimotor rhythmic abilities in language development. Togethere, the Theoretical and Experimental (five studies) sections will bring evidence on the role of VTS experiences and sensorimotor abilities across language development."
+author: "Sofia Russo (with E. Valenza, B. Arfé, A. Rodà, G. Calignano, and F. Carnovalini)"
+anchor-sections: true
+smooth-scroll: true
+format: 
+  html: 
+    resources: stimolo_4_1_fx.wav
+    page-layout: full
+    theme: cerulean
+    toc: true
+    toc-title: ToC
+    toc-location: left
+    toc-depth: 3
+    title-block-style: plain  
+    title-block-banner: true
+    code-tools: 
+      source: true
+      toggle: false
+      caption: none
+editor: source
+filters:
+      - line-highlight
+execute: 
+  eval: false 
+  echo: false
+  warning: false
+lang: en
+---
+
+<br>
+
+<br>
+
+<br>
+
+
+## Kids being kids  
+
+
+{{< video video/eminem.mp4 >}}
+
+<br>
+
+<br>
+
+<br>
+
+
+# Take home message
+
+<h3>
+  <p class="text-success">Vestibular, tactile, and somatosensory rhythmic abilities are crucial for developing language. </p>
+</h3>
+
+
+```{r}
+#| eval: true 
+#| out-width: 80%
+#| fig-align: center
+knitr::include_graphics("images/addio.jpeg")
+```
+
+# Where does this "rhythm thing" come from? 
+
+<h3>
+  <small class="text-muted">*"Math, science, history, unraveling the mysteries / That all started with the big bang!"*</small>
+</h3>
+
+<br>
+
+```{r}
+#| eval: true 
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/maneskin.png")
+```
+<br>
+
+{{< video video/cacatuadance.mp4 width="600" height="500" >}}
+
+
+<br>
+
+<br>
+
+### Yes, but... How? Why?
+
+
+
+<br>
+
+
+::: {.grid}
+
+::: {.g-col-2}
+
+
+```{r}
+#| fig-cap-location: bottom
+#| eval: true 
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/darswing.gif")
+```
+
+:::
+
+::: {.g-col-10}
+
+
+It might be that the evolution of such complex traits might have evolved as the 
+by-product of *gene-culture coevolution*: culture (e.g., imitation of successful behaviors) and genetic dynamics (e.g., the transmission of genetic variants enhancing the ability of sustained BPS) might have driven the evolutionary line to where it is today!
+
+
+From caterpillars, to Maneskin ;) 
+
+:::
+
+:::
+
+
+<br>
+
+### What about language?  
+
+<br>
+
+```{r}
+#| fig-cap-location: bottom
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/cacatua.png")
+```
+
+<br>
+
+The evolutionary path leading to the complex rhythmic abilities of human species develops hand in hand with sensory, motor, and communicative phylogenetic pressures. Humans are the only species showing a spontaneous tendency to engage in group synchrony: an indicative trait of our species, along with language. 
+
+
+<br>
+
+## What is the difference between a cockatoo and a kid then?   
+
+I asked to ChatGPT 
+
+```{r}
+#| eval: true
+#| out-width: 80%
+knitr::include_graphics("images/ai.png")
+```
+
+
+### 1. Language! 
+
+Humans rely on shared and broad-based abilities 
+to build a communicative system with referential meaning. 
+These basic mechanisms underlie the processing of different 
+rhythmic signals, including music and *language*.
+
+
+::: {.grid}
+
+::: {.g-col-7}
+
+
+```{r}
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/prism.png")
+```
+
+:::
+
+::: {.g-col-5}
+
+<br>
+
+```{r}
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/hierarchy.png")
+```
+
+
+:::
+
+:::
+
+
+<br>
+
+### 2. Underwater prenatal life!
+
+<br>
+
+::: {.grid}
+
+::: {.g-col-3}
+
+
+```{r}
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/inutero.jpg")
+```
+
+
+```{r}
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/nevermind.jpg")
+```
+
+
+:::
+
+::: {.g-col-9}
+
+
+```{r}
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/touch.png")
+```
+
+
+:::
+
+:::
+
+<br> 
+
+<br>
+
+
+# Study 1: VTS rhythmic abilities in infancy
+
+<p class="lead">The goal of this Study is to investigate infant rhythmic abilities under the vestibular, tactile, and somatosensory (VTS) modality.</p>
+
+```{r}
+#| eval: true 
+#| out-width: 75%
+#| fig-align: center
+knitr::include_graphics("images/vibr.jpg")
+```
+
+::: {.panel-tabset}
+
+## Questions and hypothesis 
+
+<p class="text-success">**Are infants able to discriminate between different rhythms only relying on VTS input? Does this ability changes across development?**</p>
+
+::: {.grid}
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/baby.jpg")
+```
+
+:::
+
+::: {.g-col-9}
+
+Given the central role of VTS input in the perinatal period (e.g., Provasi et al., 2014; Phillips-Silver and Trainor, 2005), infants are expected to be able to tease apart VTS rhythms with novel versus recently familiarized meters. Furthermore, following the principles of perceptual narrowing and enculturation dynamics (Trainor and Hannon, 2013; Lewkowicz, 2014), processing abilities in young infants are expected to be broader and to tune toward culture-specific signals along development. 
+
+
+:::
+
+:::
+
+## Partecipants 
+
+37 infants (17 females, M age = 655.2 days, SD = 190.2)
+
+::: {.grid}
+
+::: {.g-col-7}
+
+```{r, echo=FALSE, eval=TRUE}
+load("data/vibro_pupil.RData")
+library(ggplot2)
+library(hrbrthemes)
+ggplot(V_test, aes(x=age, y=id, color=id)) + 
+  geom_point(size=3) +
+  theme_ipsum() + guides(color = FALSE, size = FALSE) 
+#| out-width: 120%
+```
+
+:::
+
+ 
+::: {.g-col-5}
+
+
+<br>
+
+<br>
+
+<br>
+
+```{r}
+#| eval: true
+#| out-width: 90%
+knitr::include_graphics("images/chart.png")
+```
+
+::: 
+ 
+::: 
+ 
+
+## Apparatus 
+
+```{r}
+#| eval: true
+#| out-width: 80%
+#| fig-align: center
+knitr::include_graphics("images/vibrotattile.png")
+```
+
+The Infant vibrotactile system and its implementation in the experimental set-up. The frequency map of the basilar membrane (*a*, adapted from Li et al., 2021) inspired the topographic projection of the signal (Karam et al., 2009).
+
+## Stimuli
+
+Binary stimuli 
+
+<audio controls src="music/stimolo_4_1_fx.wav">
+        <code>audio</code>
+</audio>
+
+```{r}
+#| eval: true
+#| out-width: 60%
+#| fig-align: center
+knitr::include_graphics("images/binary.png")
+```
+
+Ternary stimuli 
+
+<audio controls src="music/stimolo_3_1_fx.wav">
+        <code>audio</code>
+</audio>
+
+```{r}
+#| eval: true
+#| out-width: 60%
+#| fig-align: center
+knitr::include_graphics("images/ternary.png")
+```
+
+## Design 
+
+The gaze triggered, familiarization-test paradigm.
+
+::: {.grid}
+
+::: {.g-col-8}
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/design_VT.png")
+```
+
+:::
+
+::: {.g-col-4}
+
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/setting1.jpeg")
+```
+
+
+:::
+
+:::
+
+## Dependent variables
+
+
+::: {.grid}
+
+::: {.g-col-4}
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/eye.png")
+```
+
+:::
+
+::: {.g-col-8}
+
+<br>
+
+<h5>Looking times:</h5> from 1 to 4 obs/participant (2000 - 6000 ms); Gamma distribution.
+
+<br>
+
+<h5>Pupil diameter:</h5> ~3000 obs/participant freq:60Hz, from 2 to 8mm; Baseline corrected: Gaussian distribution
+
+:::
+
+:::
+
+
+## Looking times 
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/LookingDescriptive.png")
+```
+
+Generalized linear mixed models (GLMM; Nieuwenhuis et al., 2012; Fox, 2015) fitted with the lme4 package (Bates et al., 2014) + hierarchical step-wise forward model comparison (Heinze et al., 2018), based on AIC (Akaike Information Criterion). 
+
+```{r}
+#| echo: true
+#| eval: false 
+#| source-line-numbers: "4"
+
+#LOOKING TIMES
+m0=glmer(looking_vibro ~ (1|id), data=V_test, family= Gamma(link=log), nAGQ = 0)
+m1=glmer(looking_vibro ~ trial_type + (1|id), data=V_test, family= Gamma(link=log), nAGQ = 0)
+m2=glmer(looking_vibro ~ trial_type + familiarization_group + (1|id),data=V_test, family= Gamma(link=log), nAGQ = 0)
+m3=glmer(looking_vibro ~ trial_type + familiarization_group + age + (1|id),data=V_test, family= Gamma(link=log), nAGQ = 0)
+m4=glmer(looking_vibro ~ trial_type * familiarization_group + age + (1|id),data=V_test, family= Gamma(link=log), nAGQ = 0)
+m5=glmer(looking_vibro ~ trial_type * age + familiarization_group + (1|id),data=V_test, family= Gamma(link=log), nAGQ = 0)
+m6=glmer(looking_vibro ~ trial_type * age * familiarization_group + (1|id),data=V_test, family= Gamma(link=log), nAGQ = 0)
+
+
+```
+
+<br>
+
+```{r}
+#| eval: true
+#| out-width: 70%
+#| fig-align: center
+knitr::include_graphics("images/lookingTest.png")
+```
+
+Only the familiarization group effect was significant, with longer fixation times performed by infants familiarized with a double meter (b=-0.20, SE=0.09, t=-2.14, *p*=0.0317). Oh noooooo
+
+
+## Pupillometry 
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/PupilDescript.png")
+```
+
+
+```{r}
+#| echo: true
+#| eval: false 
+#| source-line-numbers: "6"
+#PUPILLOMETRY
+m0=lmer(corrected ~ (1|id),data=V_test)
+m1=lmer(corrected ~ age + (1|id),data=V_test)
+m2=lmer(corrected ~ age + trial_type + (1|id),data=V_test)
+m3=lmer(corrected ~ age * trial_type + (1|id),data=V_test)
+m4=lmer(corrected ~ age * trial_type + familiarization_group + (1|id),data=V_test)
+m5=lmer(corrected ~ age * trial_type * familiarization_group + (1|id),data=V_test)
+
+
+```
+
+
+```{r}
+#| eval: true
+#| out-width: 80%
+#| fig-align: center
+knitr::include_graphics("images/pupilTest.png")
+```
+
+Single effect of trial type (b=0.219, SE=0.02, t=10.650, *p*<0.001) and age (b=0.0004, SE= 0.0002, t=2.233, *p*=0.026) resulted as significant as well as their interaction (b=-0.0003, SE= 0.00002, t=-13.198, *p*<0.001). Moreover, the familiarization group and age also show a significant interaction (b=0.0006, SE=0.0003, t=-2.118, *p*=0.034). Lastly, the **three-way interaction** of all predictors resulted as significant (b=0.0001, SE=0.00004, t=4.007, *p*<0.001). 
+
+## So what? 
+
+Are infants able to discriminate between different rhythms only relying on VTS input? Does this ability changes across development?
+
+<p class="text-success">**Yes, it might be!**</p>
+
+
+::: {.grid}
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/baby.jpg")
+```
+
+:::
+
+::: {.g-col-9}
+
+As suggested by the accordance of behavioral (i.e., increased looking times for infants familiarized with double meters) and physiological (i.e., increased pupil dilation for familiar over novel stimuli in infants familiarized with double meters) measures. Therefore, results from this Study supports the existence and the age-related changes in rhythmic abilities in infancy.
+
+<p class="text-danger">**But:**</p> Are VTS rhythmic abilities realted to language? And how does this relationship change across development? 
+
+:::
+
+:::
+
+
+
+
+:::
+
+<br>
+
+<br>
+
+
+
+# Study 2: linking VTS rhythms and language
+
+<p class="lead">The aim of this Study was to test the emerging linguistic skills and their link with VTS rhythmic abilities in infancy.</p>
+
+```{r}
+#| eval: true
+#| out-width: 80%
+#| fig-align: center
+knitr::include_graphics("images/pression.png")
+```
+
+::: {.panel-tabset}
+
+## Questions and hypothesis 
+
+<p class="text-success">**Are the emerging linguistic abilities (i.e., phonological and prosodic processing) underlying early lexical encoding related (Study 2) to VTS rhythmic skills (Study 1)? Does this relationship change across development?**</p>
+
+
+::: {.grid}
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/hearing.jpeg")
+```
+
+:::
+
+::: {.g-col-9}
+
+The motivation for this Study comes from the literature in support of a link between general rhythmic and language skills (e.g., Kalashnikova et al., 2019, 2021; Cantiani et al., 2019; Politimou et al., 2019). Moreover, impairments in rhythm, timing, and synchrony/coordination have been found to occur across different neurodevelopmental disorders (Goswami, 2002; Chang et al., 2016; Trainor et al., 2018; Carrer, 2015; Lense et al., 2021; rev: Ladányi et al., 2020). However, netiher the extent nor the underlying mechanisms of this relationships are know today. 
+
+
+:::
+
+:::
+
+<br> 
+
+```{r}
+#| eval: true
+#| out-width: 70%
+#| fig-align: center
+knitr::include_graphics("images/atypical.png")
+```
+
+Rhythm (x-axis) varies from atypical to typical abilities and its link to typical (light blue) and atypical (red) development in the population. In particular, poor rhythmic skills coincide with the tail of the atypical development distribution representing a risk factor for developmental disorders. Genetic vulnerabilities, envi- ronmental factors (e.g., education, training, and social interactions) and neural pro- cessing also contribute to this interaction. From Lense et al. (2021).
+
+## Partecipants 
+
+39 infants (19 females, M age = 661,5 sd = 192,5)
+
+
+::: {.grid}
+
+::: {.g-col-7}
+
+```{r, echo=FALSE, eval=TRUE}
+load("data/lang.RData")
+library(ggplot2)
+library(hrbrthemes)
+ggplot(L_pupil, aes(x=age, y=id, color=id)) + 
+  geom_point(size=3) +
+  theme_ipsum() + guides(color = FALSE, size = FALSE) 
+#| out-width: 120%
+```
+
+:::
+
+ 
+::: {.g-col-5}
+
+
+<br>
+
+<br>
+
+<br>
+
+```{r}
+#| eval: true
+#| out-width: 90%
+knitr::include_graphics("images/chart_l.png")
+```
+
+::: 
+ 
+::: 
+ 
+
+
+## Design and Stimuli 
+
+Emerging linguistic abilities were tested through a gaze triggered, discrimination task for novel object-label pairs. Specifically, prosodic and phonological abilities were measured by investigating how infants react to mispronunciations, occurring at the stress or the phonological level, in recently familiarized labels.
+
+<audio controls src="music/loche.wav">
+        <code>audio</code>
+</audio>
+
+
+<audio controls src="music/bosanp.wav">
+        <code>audio</code>
+</audio>
+
+
+<audio controls src="music/narens.wav">
+        <code>audio</code>
+</audio>
+
+
+::: {.grid}
+
+::: {.g-col-8}
+
+```{r}
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/design2.png")
+```
+
+:::
+
+::: {.g-col-4}
+
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/nare.jpeg")
+```
+
+
+:::
+
+:::
+
+## Linguistic abilities
+
+```{r}
+#| eval: true
+#| out-width: 80%
+#| fig-align: center
+knitr::include_graphics("images/descriptiveLang.png")
+```
+
+
+Generalised Additive Mixed-effect models (GAMM) by using the mgcv package (Wood and Part, 2007, v1.8-33) + the model’s estimates of the differences between conditions were evaluated and visually inspected by means of the itsadug and MuMIn packages (van Rij et al., 2019). 
+
+```{r}
+#| eval: true
+#| out-width: 80%
+#| fig-align: center
+knitr::include_graphics("images/gamm.png")
+```
+
+```{r, echo=TRUE, eval=FALSE}
+
+#Pupil changes over Time
+m1 <- bam( corrected ~ trial_type 
+           + s(time, by=trial_type, k=20) 
+           + s(time, age, bs='fs', m=1)
+           + s(time, id, bs='fs', m=1) 
+           + s(time, trial, bs='fs', m=1)
+           , data=L_pupil, discrete=TRUE, nthreads=40)
+
+#Pupil changes over Age
+m2 <- bam( corrected ~ trial_type*age
+           + s(time, by=trial_type, k=20)  
+           + s(time, id, bs='fs', m=1) 
+           + s(time, trial, bs='fs', m=1)
+           , data=L_pupil, discrete=TRUE, nthreads=40)
+
+
+```
+
+## Link with rhythm 
+
+32 infants (15 females, M age = 655,2 sd = 190,2) completed both studies. 
+
+```{r}
+#| echo: true
+#| eval: false 
+#| source-line-numbers: "6"
+#linear models
+m0=lmer(language ~ (1|id),data=L_merge)
+m1=lmer(language ~ vibro_new + (1|id),data=L_merge)
+m2=lmer(language ~ vibro_new + trial_type + (1|id),data=L_merge)
+m3=lmer(language ~ vibro_new + trial_type + age + (1|id),data=L_merge)
+m4=lmer(language ~ vibro_new * trial_type + age + (1|id),data=L_merge)
+m5=lmer(language ~ vibro_new * trial_type * age + (1|id),data=L_merge)
+
+```
+
+
+```{r}
+#| eval: true
+#| out-width: 80%
+#| fig-align: center
+knitr::include_graphics("images/inter.png")
+```
+
+
+Infants showing higher increase for familiar stimuli in the rhythmic task (values near to 0) also show a higher increase in pupil diameter toward familiar stimuli (values near to 0.5) in the linguistic task.
+
+<br>
+
+Developmental changes 
+
+```{r, echo=TRUE, eval=FALSE}
+#Predicted changes direction of task performances across age 
+
+m1 <- bam(score ~ task
+            + s(age, by=task, k=20)  
+            + s(id, bs='fs', m=1) 
+           , data=data_long, discrete=TRUE, nthreads=40)
+
+```
+
+
+```{r}
+#| eval: true
+#| out-width: 80%
+#| fig-align: center
+knitr::include_graphics("images/age.png")
+```
+
+## Ok, great! 
+
+Are the emerging linguistic abilities (i.e., phonological and prosodic processing) underlying early lexical encoding related (Study 2) to VTS rhythmic skills (Study 1)? Does this relationship change across development?
+
+<p class="text-success">**Yes, it might be so!**</p>
+
+
+::: {.grid}
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/hearing.jpeg")
+```
+
+:::
+
+::: {.g-col-9}
+
+Results suggest that: 
+
+i) infants are sensitive to changes in phonological and prosodic features occurring in recently familiarized object-label pairs and they grow in specificity from 7 to 35 months (Durrant, 2017; Swingley and Aslin, 2000; Yoshida et al., 2009; Delle Luche et al., 2015)
+
+ii) linguistic performances are predicted by VTS rhythmic skills: this may indicate an the existence of an overlapping set of basic rhythmic abilities serving the processing of a vast range of signals across domains (i.e., from music to language) but also across sensory modalities (i.e., from touch to hearing).
+
+iii) Furthermore, this ability seems to increase with age representing a potential developmental scaffold for cognitive development and language acquisition in particular.
+
+
+:::
+
+
+:::
+<div style="text-align: right"> <p class="text-danger">**Now... what can we do with this? =)**</p> </div>
+
+
+
+
+:::
+
+# Study 3: a pilot VTS rhythmic priming for processing language
+
+This study is a pilot to directly test the benefit on processing language when primed by a matching, short-term VTS rhythmic exposure.
+
+```{r}
+#| eval: true
+#| out-width: 80%
+#| fig-align: center
+knitr::include_graphics("images/wave.png")
+```
+
+
+::: {.panel-tabset}
+
+## Questions and hypothesis 
+
+<p class="text-success">**Could the Infant vibrotactile system serve as a possible application for transferring the documented effects of rhythm on language processing through short-term exposure to VTS rhythmic primes?**</p>
+
+::: {.grid}
+
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/shaking.jpeg")
+```
+
+:::
+
+
+::: {.g-col-9}
+
+Rhythmic priming tasks have been largely applied to transfer benefits from short-term exposures to musical rhythms across domains (Cason and Schön, 2012; Cason et al., 2015a; Fiveash et al., 2020; Gould et al., 2017; Chern et al., 2018). Moreover, the rhythmic priming effect was found to occur also across different sensory modalities, including auditory to visual (Fotidzis et al., 2018) and visual to auditory signals (Liu et al., 2012; Gould et al., 2018). 
+
+However, less is known about the cross-modal influence of haptic inputs (Schneider et al., 2011), especially considering sensorimotor and vestibular modalities which have been investigated only as a cue to spatial orientation before (Lindeman et al., 2003).
+
+:::
+
+
+:::
+
+Therefore, the main research question of this Study is whether the cross-domain (i.e., musical to language) and cross-sensory (i.e., tactile to auditory) associations between rhythm and language do sustain the possibility to rely on one signal and modality to process the other. 
+
+
+## Method 
+
+Ten infants (6 females, M age = 632 days, SD = 306,68) took part to this pilot. They were tested with VTS rhythmic primes and auditory linguistic sequences presented in contingency with a visual attentional getter. 
+
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+#| fig-cap-location: top
+#| fig-cap: Experimental design
+knitr::include_graphics("images/expdesign.png")
+```
+
+Each trial consisted of a priming and a test phase. The rhythmic priming was adminis- tered under the VTS modality through the Infant vibrotactile system placed on the infant seat; then, the linguistic stimulus was auditory presented. Contingent visual stimuli (i.e., colourful checkerboard and a cartoon attentional getter) were presented to attract the infant’s attention allowing the eye-tracker to collect pupil data.
+
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+#| fig-cap-location: top
+#| fig-cap: Stimuli
+knitr::include_graphics("images/stimoli.png")
+```
+
+Binary (i.e., 2/4) or ternary (i.e., 3/4) priming were followed by matching or mismatching syllabic sequences, while the colourful checkerboard shown as visual stimulus. 
+
+
+## Very preliminary results 
+
+Descriptive statistics (Figure 4.18) show a slight increase in pupil diameter during the test phase for mismatching over matching trials. Specifically, the data distribution, shown by violin (Figure 4.18, left) and density (Figure 4.18, upright plots), is shifted over positive values for pupil diameter in mismatching trials compared to data from the matching condition.
+
+
+```{r}
+#| eval: true
+#| out-width: 80%
+#| fig-align: center
+knitr::include_graphics("images/thirdResults.png")
+```
+
+To better explore variations in pupil diame- ter over time, baseline corrected pupillary data were plotted in the time di- mension applying a locally estimated scatter-plot smoothing (Cleveland and Devlin, 1988, loess) that is a non-parametric regression method combining multiple regression models in a k-nearest neighbour, based meta-model (Ja- coby, 2000). The loess method was specified in the geom_smooth function of the ggplot2 package (Wickham, 2016) in R software (R Core Team, 2022).
+
+
+```{r}
+#| eval: true
+#| out-width: 70%
+#| fig-align: center
+knitr::include_graphics("images/corrected.png")
+```
+
+## Can we say anything on this? 
+
+
+<p class="text-success">**No, we should not.**</p>
+
+... but we could, eventually! ;)
+
+
+```{r}
+#| eval: true
+#| out-width: 30%
+#| fig-align: center 
+knitr::include_graphics("images/coming.jpg")
+```
+
+
+:::
+
+
+# Ok, but... people are born, they grow, they run. 
+
+and they leave behind their prenatal experiences with VTS rhythms. 
+
+<br>
+
+Does this mean that all we have been saying so far ceases to have meaning at school ages? 
+
+Spoiler: no =)
+
+<br>
+
+```{r}
+#| eval: true
+#| out-width: 70%
+#| fig-align: center 
+knitr::include_graphics("images/kid.png")
+```
+
+
+
+# Study 4: influence of sensorimotor rhythm on reading abilities
+
+In this Study, the effect of a sensorimotor entrainment to rhythm on reading abilities is evaluated in sixty, healthy young adults.
+
+```{r}
+#| eval: true
+#| out-width: 80%
+#| fig-align: center 
+knitr::include_graphics("images/reading.png")
+```
+
+::: {.panel-tabset}
+
+## Questions and hypothesis 
+
+<p class="text-success">**Given that individuals with dyslexia struggle in synchronizing to an external beat, what are the mechanisms through which a regular rhythmic cue enhances their performances in linguistic tasks?**</p>
+
+::: {.grid}
+
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/metro.jpeg")
+```
+
+:::
+
+
+::: {.g-col-9}
+
+In this Study, participants were asked to perform a **lexical decision task** for word and non-word in three different conditions: i) under a baseline setting, ii) under **articulatory suppression**, and iii) under articulatory suppression with a **rhythmic cue** . 
+
+The sensorimotor entrainment to a regular rhythmic cue should facilitate performances, containing the interfering effects of the articulatory suppression thus aiding the allocation of attentional resources in time. 
+
+**Working memory**, **reading difficulties** in every-day life, and **music education** are expected to mediate the effect of sensorimotor entrainment to rhythm on reading.
+
+
+:::
+
+::: 
+
+
+## Method
+
+<h4>Participants and Design</h4>
+
+Sixty, healthy young adults (37 females, M = 21 age, SD = 2). 
+
+
+```{r}
+#| eval: true
+#| out-width: 70%
+#| fig-align: center
+knitr::include_graphics("images/LexiDesign.png")
+```
+
+## Stimuli and Materials 
+
+**Verbal stimuli** for the lexical decision task consisted of 48 items from the Italian Battery for the assessment of dyslexia and developmental dysorthography by Sartori et al. (1995).
+
+**Rhythmic stimulation** was provided via a metronome paced at 2 Hz (120 bpm). To balance the presence of auditory stimulation across conditions, white noise was played in the background.
+
+**Self-report questionnaire** consisting of 20 items with yes/no answers (Vinegard, 1994, A revised Dyslexia Checklist). Two items asking whether participants received, and for how many years, individual lessons with a musical instrument were added to the checklist. 
+
+
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/checklist.png")
+```
+
+## Literacy difficulties 
+
+Short-term exposure to a regular rhythmic cue is found to reduce the cognitive load (but is not sufficient to boost performances) in poor readers performing demanding linguistic tasks.
+
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/modelsDDlexical.png")
+```
+
+```{r}
+#| echo: true
+#| eval: false
+#| source-line-numbers: "7"
+#ACCURACY
+m0 <- glmer(accuracy ~ (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m1 <- glmer(accuracy ~ condition + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m2 <- glmer(accuracy ~ condition + class + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m3 <- glmer(accuracy ~ condition * class + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m4 <- glmer(accuracy ~ condition * class + literacy_difficulties + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m5 <- glmer(accuracy ~ condition * class * literacy_difficulties + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+```
+
+```{r}
+#| echo: TRUE
+#| eval: FALSE 
+#| source-line-numbers: "7"
+#PUPIL
+p0=lmer(pupil ~ (1|id) + (1|trial_order), data=RT)
+p1=lmer(pupil ~ condition + (1|id) + (1|trial_order), data=RT)
+p2=lmer(pupil ~ condition + class + (1|id) + (1|trial_order), data=RT)
+p3=lmer(pupil ~ condition * class + (1|id) + (1|trial_order), data=RT)
+p4=lmer(pupil ~ condition * class + literacy_difficulties + (1|id) + (1|trial_order), data=RT)
+p5=lmer(pupil ~ condition * class * literacy_difficulties + (1|id) + (1|trial_order), data=RT)
+```
+
+
+## Music education 
+
+Music practice is predicted to boost the benefits resulting from the rhythmic cue, in terms of both increased performances and reduced cognitive demand.
+
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/modelsMElexical.png")
+```
+
+```{r}
+#| echo: TRUE
+#| eval: FALSE 
+#| source-line-numbers: "7"
+#ACCURACY
+m0 <- glmer(accuracy ~ (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m1 <- glmer(accuracy ~ condition + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m2 <- glmer(accuracy ~ condition + class + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m3 <- glmer(accuracy ~ condition * class + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m4 <- glmer(accuracy ~ condition * class + music_education + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m5 <- glmer(accuracy ~ condition * class * music_education + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+
+```
+
+```{r}
+#| echo: TRUE
+#| eval: FALSE 
+#| source-line-numbers: "7"
+#PUPIL
+p0=lmer(pupil ~ (1|id) + (1|trial_order), data=RT)
+p1=lmer(pupil ~ condition + (1|id) + (1|trial_order), data=RT)
+p2=lmer(pupil ~ condition + class + (1|id) + (1|trial_order), data=RT)
+p3=lmer(pupil ~ condition * class + (1|id) + (1|trial_order), data=RT)
+p4=lmer(pupil ~ condition * class + music_education + (1|id) + (1|trial_order), data=RT)
+p5=lmer(pupil ~ condition * class * music_education + (1|id) + (1|trial_order), data=RT)
+```
+
+## Working memory
+
+Working memory resulted as a significant predictor of performances across conditions. Specifically, higher scores in the digit span test predicted higher levels of accuracy (especially in the rhythmic condition) and lower cognitive load.
+
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/modelsWMlexical.png")
+```
+
+
+```{r}
+#| echo: TRUE
+#| eval: FALSE 
+#| source-line-numbers: "7"
+#ACCURACY
+m0 <- glmer(accuracy ~ (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m1 <- glmer(accuracy ~ condition + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m2 <- glmer(accuracy ~ condition + class + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m3 <- glmer(accuracy ~ condition * class + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m4 <- glmer(accuracy ~ condition * class + digit_span + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+m5 <- glmer(accuracy ~ condition * class * digit_span + (1|id) + (1|trial_order),data=test, family= Gamma(link=log), nAGQ = 0)
+```
+
+
+```{r}
+#| echo: true
+#| eval: false 
+#| source-line-numbers: "6"
+#PUPIL 
+p1=lmer(pupil ~ condition + (1|id) + (1|trial_order), data=RT)
+p2=lmer(pupil ~ condition + class + (1|id) + (1|trial_order), data=RT)
+p3=lmer(pupil ~ condition * class + (1|id) + (1|trial_order), data=RT)
+p4=lmer(pupil ~ condition * class + digit_span + (1|id) + (1|trial_order), data=RT)
+p5=lmer(pupil ~ condition * class * digit_span + (1|id) + (1|trial_order), data=RT)
+```
+
+
+## Therefore
+
+Does and through which mechanisms, a regular rhythmic cue enhances their performances 
+in linguistic tasks?
+
+<p class="text-success"> **Overall, entrain to a regular rhythmic cue significantly predicted a decrease in cognitive load while reading. However, the facilitating effect of rhythm resulted in increased accuracy for proficient readers only. Results were explained in terms of perceptual and cognitive mechanisms underlying different levels of reading proficiency.** </p>
+
+
+::: {.grid}
+
+::: {.g-col-9}
+
+Short-term exposure to a regular rhythmic cue is found to reduce the cognitive load (but is not sufficient to boost performances) in **poor readers** performing demanding linguistic tasks. 
+
+**Music practice** is predicted to boost the benefits resulting from the rhythmic cue, in terms of both increased performances and reduced cognitive demand. 
+
+Lastly, **working memory** resulted as a significant predictor of performances across conditions. Specifically, higher scores in the digit span test predicted higher levels of accuracy (especially in the rhythmic condition) and lower cognitive load. 
+
+:::
+
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 70%
+#| fig-align: center
+knitr::include_graphics("images/left.jpeg")
+```
+
+:::
+
+::: 
+
+<div style="text-align: right"> <p class="text-danger">**Nice... so why not involving sensorimotor dynamics even more? **</p> </div>
+
+<div style="text-align: right"> *Ok, let's do this!* </div>
+
+:::
+
+# Study 5: influence of sensorimotor rhythm on writing abilities
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/waves.png")
+```
+
+The present Study aims at exploring the beneficial effect of rhythm on writing abilities in young adults.
+
+::: {.panel-tabset}
+
+## Questions and hypothesis 
+
+<p class="text-success">**Given the substantial involvement of sensorimotor coupling in language processing, could the special case of written language particularly benefit from the effect of sensorimotor entrainment to rhythm?</p>
+
+::: {.grid}
+
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/pen.jpeg")
+```
+
+:::
+
+
+::: {.g-col-9}
+
+In this Study, **handwriting quality and kinematic** will be investigated in the sample of sixty young adults participating in Study 4, called to perform a second experimental section consisting of a **dictation task**. 
+
+This task - adapted from Colombo et al. (2009) - consisted of a list of words auditory presented to and written by participants. Performances will be evaluated in terms of **product quality** (i.e., legibility), **kinematic indexes** (i.e., average speed and pressure of stroke), and adherence to the **isochrony principle** (i.e., the ratio between speed and length of movements). 
+
+As in Study 4, the dictation task was performed in a **baseline condition**, under **articulatory suppression**, and in presence of a **rhythmic cue**. 
+
+
+:::
+
+::: 
+
+
+## Method
+
+<h5>Participants and Design</h5>
+
+**Participants** from Study 4 [i.e., Sixty, healthy young adults (37 females, M = 21 age, SD = 2).] participated in this Study as a second experimental section to the whole project.
+
+Words for the **dictation task** consisted of 48 items from Colombo et al. (2009), divided into three lists of 16 items each, balanced for syllable number and frequency. The **digit span test**, self-report difficulties in everyday **literacy abilities**, and **music education** were investigated during the first experimental section. 
+
+```{r}
+#| eval: true
+#| out-width: 70%
+#| fig-align: center
+knitr::include_graphics("images/expDesign5.png")
+```
+
+## Apparatus and Dependent variables
+
+Kinematic measures were collected by adapting the dictation task (Colombo et al., 2009, i.e., paper-and-pencil) to a digitalized version, by means of an **iPad Air** and an **Apple Pencil**. The Pencil is sensitive to tilt and pressure and, while using it, a **custum-made algorithm** collected data on speed, pressure, and length of strokes. 
+
+::: {.grid}
+
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/ipad.jpeg")
+```
+
+:::
+
+
+::: {.g-col-9}
+
+i) **product quality** was traditionally assessed in terms of *legibility*, through a Likert scale, by three independent evaluators blinded to hypothesis and design (Barnett et al., 2018);
+
+ii) **kinematic indexes** included *average speed* and *average pressure* of stroke (Rosenblum et al., 2003; Kushki et al., 2011);
+
+iii) adherence to **isochrony** (i.e., rhythmic patterning of handwriting) was computed as the ratio between *average speed* and *stroke length* (Pagliarini et al., 2015, 2017). 
+
+
+:::
+
+
+::: 
+
+## Product Quality
+
+<h5>Literacy proficiency </h5>
+
+Scores were predicted to significantly increase in the rhythm condition for low-proficient readers (b=0.0238, SE=0.0009, t= 24.294, *p*<0.001). 
+
+
+```{r}
+#| eval: true
+#| out-width: 70%
+#| fig-align: center
+knitr::include_graphics("images/qualityDD.png")
+```
+
+```{r}
+#| echo: true
+#| eval: false 
+#| source-line-numbers: "5"
+#LITERACY 
+m0=glmer(quality ~ (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+m1=glmer(quality ~ condition + (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+m2=glmer(quality ~ condition + literacy proficiency + (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+m3=glmer(quality ~ condition * literacy proficiency + (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+```
+
+<h5>Music education</h5>
+
+Overall, music education resulted as a significant predictor of an increase in the quality score (b=0.0119, SE=0.0046, t=2.575, *p*=0.010). Specifically, the strongest effect of music education was observed in containing articulatory interference in the suppression condition (b=0.01504, SE=0.00156, t=9.599; *p*<0.001). 
+
+```{r}
+#| eval: true
+#| out-width: 70%
+#| fig-align: center
+knitr::include_graphics("images/qualityME.png")
+```
+
+```{r}
+#| echo: true
+#| eval: false 
+#| source-line-numbers: "5"
+#MUSIC EDUCATION
+m0=glmer(quality ~ (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+m1=glmer(quality ~ condition + (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+m2=glmer(quality ~ condition + music education + (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+m3=glmer(quality ~ condition * music education + (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+```
+
+<h5>Working memory</h5>
+
+Overall, higher levels working memory predicted a general increase in product quality (b=0.04516, SE=0.01169, t=3.862, *p*<0.001). Moreover, participants with lower levels of working memory performed significantly better in the rhythmic compared to the baseline and suppression conditions (b=-0.0314, SE=0.00394, t=-7.991, *p*<0.001).
+
+
+```{r}
+#| eval: true
+#| out-width: 70%
+#| fig-align: center
+knitr::include_graphics("images/qualityDS.png")
+```
+
+```{r}
+#| echo: true
+#| eval: false 
+#| source-line-numbers: "5"
+#DIGIT SPAN 
+m0=glmer(quality ~ (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+m1=glmer(quality ~ condition + (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+m2=glmer(quality ~ condition + digit span + (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+m3=glmer(quality ~ condition * digit span + (1|id) + (1|trial),data=quality, family= Gamma(link=log), nAGQ = 0)
+
+```
+
+
+## Kinematic indexes
+
+<h5>Average speed</h5>
+
+A significant decrease in average speed was predicted by low **literacy proficiency** in the suppression (b= -0.0005, SE=0.00007, t=-6.951, *p*<0.001) but not in the rhythmic condition (b=-0.0001, SE=0.00007, t=-1.711, *p*=0.087). **Music education** did not contribute any significant effect to the models (b=0.0007, SE=0.0007; t=1.001, *p*=0.317). By contrast, higher **working memory** scores predicted an overall increase in average speed across conditions (b=0.0040, SE=0.0018, t=2.126, *p*=0.033). 
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/speed.png")
+```
+
+<h5>Average pressure</h5>
+
+Higher levels of **working memory** significantly predicted an increase in average pressure for the suppression condition (b=0.0539, SE=0.0045, t=11.889, *p*<0.001) and a significant decrease in the rhythmic condition (b=0.0347, SE=0.0044, t=7.865, *p*<0.001). 
+
+
+```{r}
+#| eval: true
+#| out-width: 60%
+#| fig-align: center
+knitr::include_graphics("images/pressure.png")
+```
+
+## Isochrony 
+
+A lower adherence to the isochrony principle of handwriting was significantly predicted by high levels of **literacy difficulties** (b=-0.00005, SE=0.00001, t=-4.093, *p*<0.001) and low levels of **working memory** (b=0.00007, SE=0.00001, t=6.145, *p*<0.001). By contrast, **music education** predicted a general increase in velocity (b=0.00594, SE=0.00297, t=1.998, *p*=0.046). Overall, working memory resulted as the best predictor of adherence. 
+
+
+<h5>Literacy proficiency</h5>
+
+```{r}
+#| eval: true
+#| out-width: 60%
+#| fig-align: center
+knitr::include_graphics("images/isoDD.png")
+```
+
+<h5>Working memory</h5>
+
+```{r}
+#| eval: true
+#| out-width: 60%
+#| fig-align: center
+knitr::include_graphics("images/isoDS.png")
+```
+
+<h5>Music education</h5>
+
+```{r}
+#| eval: true
+#| out-width: 60%
+#| fig-align: center
+knitr::include_graphics("images/isoME.png")
+```
+
+## Then what? 
+
+**Given the substantial involvement of sensorimotor coupling in language processing, could the special case of written language particularly benefit from the effect of sensorimotor entrainment to rhythm?**
+
+<p class="text-success">**Hell, yes!**</p>
+
+::: {.grid}
+
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/pen.jpeg")
+```
+
+:::
+
+
+::: {.g-col-9}
+
+i) Results align with the literature suggesting a general timing deficit in language difficulties: **poor readers** fail to adhere with the rhythmic principles of handwriting, not improving movement speed when increasing in trajectory. Crucially, rhythm was found to significantly improve writing performances.
+
+ii) Furthermore, **music education** significantly predicted an overall improvement in writing performance. Therefore, the present Study further confirms the core involvement of rhythm in literacy abilities, bringing new evidence on the effect of short- and long-term exposure to rhythm.
+
+:::
+
+::: 
+
+
+
+::: {.grid}
+
+::: {.g-col-9}
+
+iii) Lastly, the interplay between phonological and cognitive mechanisms underlying writing difficulties has been investigated by exploring the predictive effect of **working memory**: rhythm significantly sustained writing outcomes in individuals with low levels of working memory (probably through compensatory mechanisms) resulting as the best predictor of isochrony in handwriting.
+
+<p class="text-warning">Therefore, results from Study 5 suggest a positive effect of short- and long-term exposure to rhythm on the cognitive mechanisms underlying writing abilities including phonological processing, working memory, and motor control.</p> 
+
+
+:::
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/boy.jpeg")
+```
+
+:::
+
+
+::: 
+
+
+:::
+
+# Conclusionsss
+
+<h3>
+  <small class="text-muted">*Everything everywhere all at once*</small>
+</h3>
+
+<br>
+
+```{r}
+#| eval: true
+#| out-width: 100%
+#| fig-align: center
+knitr::include_graphics("images/everything.png")
+```
+
+<br>
+
+<br>
+
+
+# What we want is what we need!
+
+::: {.grid}
+
+
+::: {.g-col-3}
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/roses.jpeg")
+```
+
+:::
+
+
+::: {.g-col-9}
+
+<h4>
+  <p class="text-success">A few ideas to start from: </p>
+</h4>
+
+
+i) Free and public access to active music practice to all levels of education 
+
+ii) Not an army of little Mozarts, but feasible strategies for educators to support natural learning strategies 
+
+iii) Fundings for OpenScience research projects to increase the replicability of results thus promoting effective, evidence-based practices 
+
+:::
+
+
+:::
+
+
+
+# THANK YOU <3
+
+
+::: {.grid}
+
+
+::: {.g-col-4}
+
+```{r}
+#| eval: true
+#| out-width: 50%
+#| fig-align: center
+knitr::include_graphics("images/scimmia.jpg")
+```
+
+:::
+
+
+::: {.g-col-8}
+
+
+<p><small>*To my mam and dad, to all the babies, families, and kindergartens we visited before, during, and after Covid, to the Departement of Developmental Psychology and Socialization, to the Babylab, to my supervisors Eloisa Valenza, Barbara Arfé, and Antonio Rodà, to my sister in crime Giulia Calignano, to my sibling Federica Nenna, to Filippo Carnovalini, Ottavia Epifania, and the PsychoStat group, to the Universitat Pompeu Fabra, to Juan Manuel Toro, Chiara Santolin, and Nuria Sebastian Galles, to the Basque Center on Brain and Language, to Marina Kalashnikova, Giorgio Piazza, Francesco Coin, and the entire AMPA Miramón group, to Tania and all of us who fight, to my blood Alba, Mavi, and Dani, to my home Alessia, Benny, Lele, Elena, to my Verino, to my comrades, to my family in Catai, Sicily, and everywhere around.*</small></p>. 
+
+:::
+
+
+:::
+
+
+
+```{r}
+#| eval: true
+#| out-width: 90%
+#| fig-align: center
+knitr::include_graphics("images/loghi.png")
+```
+
+
+
+
+
